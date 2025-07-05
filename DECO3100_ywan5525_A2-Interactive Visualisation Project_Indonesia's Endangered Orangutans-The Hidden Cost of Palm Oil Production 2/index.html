@@ -1,0 +1,569 @@
+
+
+
+<head>
+  <title>Indonesia's Endangered Orangutans: The Hidden Cost of Palm Oil Production</title>
+  <!-- Chart Link -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <!-- chroma Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+  <!-- mapbox Link -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css" rel="stylesheet" />  
+  <!-- Google Font Link -->
+  <link href='https://fonts.googleapis.com/css?family=Anton&display=swap' rel="stylesheet" type="text/css"> 
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Web Icon -->
+  <link rel="icon" href="WebIcon.png" sizes="100x100" type="image/x-icon">
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="styles.css"> 
+</head>  
+
+
+
+
+ <body>
+
+
+  <!-- p1 part-->
+  <div class="p1-bg"> 
+    <div class="p1-container">
+        <!-- p1 Image -->
+        <img src="p1-PlamOilBottle.png" alt="Palm Oil Bottle" >
+        <!-- p1 Header -->
+        <div class="p1-header">
+            <div class="p1-title">Indonesia's Endangered Orangutans:</div>
+            <div class="p1-subtitle">The Hidden Cost of<span class="p1-nowrap"><span class="p1-Green"> Palm Oil</span> Production</span></div>
+        </div> 
+
+        <!-- p1 Author -->
+        <div class="p1-center">
+          <p>By <u class="p1-underline" style="color: #764B36; font-family: 'Jansfin San Regular', sans-serif;"><b>Yi Wan</b></u></p>
+        </div>
+
+        <!-- p1 Main Content -->
+        <div class="p1-paragraph-content-wrapper"> 
+            <div class="p1-paragraph">
+                <p class="p1-text">
+                    The study highlights how the profitable palm oil industry in Indonesia poses a growing threat to the 
+                    survival of orangutans, putting them at risk of extinction. It underlines the pressing need for sustainable
+                    palm oil practices to safeguard these endangered animals and support local communities.    
+                </p>  
+            </div>
+        </div>    
+    </div>
+
+      
+
+
+
+  <!-- p2 part-->
+  <div class="p2-bg"> 
+    <!-- p2 Figure 1 -->   
+    <div class="p2-content-wrapper"> 
+        <div class="p2-paragraph">
+            <p class="p2-text"><b><span class="p2-Green">Palm oil</span></b> is a widely 
+              used vegetable oil, ranking among the top three vegetable oils in production 
+              volume, along with <b>soybean</b> and <b>rapeseed oil</b>.</p>
+        </div>
+        <!-- p2 Figure 1 Chart -->
+        <div id="Figure1" class="chart"></div>
+    </div>   
+      
+    <!-- p2 Figure 2 -->
+    <div class="Figure2-content-wrapper">
+      <div class="Figure2-paragraph">
+          <p class="Figure2-text">
+              Palm oil is commonly used as an additive rather than a primary ingredient, 
+              making it easy to overlook its presence in many products.           
+              However, due to its widespread production and usage, it is a prevalent 
+              component in a diverse range of items.
+          </p>
+      </div>
+      <div class="Figure2-title-paragraph">
+          <p class="Figure2-title">
+              Discover the sunburst chart to see the weight of palm oil in your daily product usage.
+          </p>
+      </div>  
+      <!-- p2 Figure 2 Chart -->
+      <div id="Figure2" class="chart"></div>
+
+          <!-- p2 Big Text and Illustration 1 -->    
+        <div class="Figure3-bigtext-content-wrapper">  
+          <div class="Figure3-bigtext-paragraph">
+              <p class="Figure3-bigtext">
+                  <b>You might already be aware of you unknowingly consume a significant 
+                    amount of palm oil right from the start of your day.
+                  </b>        
+              </p>
+              <!-- p2 Illustration 1 -->
+              <img src="P2-Illustration1.gif" alt="Palm Oil Consumption Illustration">
+          </div>
+      </div>   
+    </div>  
+    <!-- Link to p2-script.JS -->
+    <script src="p2-script.js"></script> 
+    
+
+
+
+  <!-- p3 part-->
+  <div class="p3-bg"> 
+
+    <!-- p3 Big text -->  
+    <div class="p3-bigtext-content-wrapper"> 
+        <div class="p3-paragraph">
+            <p class="p3-text"><b>In the last 60 years, our demand for palm oil has skyrocketed...</b></p>
+        </div>
+    </div>
+
+    <!-- p3 Dropdown menu -->
+    <div class="p3-Dropdown-content-wrapper">    
+        <select id="chartType" name="chartType">
+            <option value="scatter">Line Chart</option>
+            <option value="area">Stacked Area Chart</option>
+        </select>
+    </div>
+
+    <!-- p3 Figure 3 -->
+    <div class="p3-Figure3-content-wrapper">    
+        <div class="Figure3-paragraph">
+            <p class="Figure3-text">
+                It is resulting in a surge in palm oil production from 1.52 
+                million tonnes in 1961 to a whopping 75.99 million tonnes  
+                in 2020. <b>Indonesia is the top producer</b>, accounting for 59% of 
+                the world's total production in 2020.  The country's palm oil production 
+                has seen a dramatic increase, rising from just 0.15 million tonnes in 1961 to 44.76 million tonnes in 2020.
+            </p>
+        </div>
+        <!-- p3 Figure 3 Chart -->
+        <div id="Figure3" class="chart"></div>
+    </div>  
+
+    <!-- p3 Figure 4 -->
+    <div class="p3-Figure4-content-wrapper">      
+        <div class="Figure4-paragraph">
+            <p class="Figure4-text">
+                However, this increase in palm oil production has come at a 
+                cost. <span style="color: #3F1C13; font-weight: bold;">The expansion of palm oil plantations has caused 
+                widespread destruction.</span>
+                <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266178" 
+                target="_blank" rel="noopener noreferrer" style="color: #764B36; font-style: underline;">
+                In the period 2001-2019,9.79 million hectares of Indonesian forests were destroyed.</a>        
+                The regions most affected were <b>Sumatra</b> and <b>
+                Kalimantan</b>, which together accounted for 82.7% of the total 
+                forest loss.
+            </p>    
+        </div>
+        <!-- p3 Figure 4 Chart -->
+        <div id="Figure4" class="chart"></div>
+    </div>
+
+    <!-- p3 Figure 5 -->
+    <div class="p3-Figure5-content-wrapper">         
+        <div class="Figure5-paragraph">
+            <p class="Figure5-text">
+                A closer examination of the data revealed that <b>over 30% of  
+                the cleared land in these regions had been converted into  
+                palm oil farms. </b>
+            </p>  
+        </div>
+        <!-- p3 Figure 5 Chart -->
+        <div id="Figure5" class="chart"></div>  
+    </div>
+
+    <!-- p3 Illustration -->
+    <div class="p3-Illustration-content-wrapper">         
+        <div class="p3-Illustrationparagraph">
+            <p class="p3-Illustrationtext"><b>This is particularly concerning!<br> As the two 
+              regions are also the primary habitats of wild orangutans…</b></p>
+            <img src="P3-Illustration-Orangutans.png" alt="Orangutans Illustration">
+        </div>   
+    </div>    
+    <!-- Link to p3 JavaScript -->
+    <script src="p3-script.js"></script> 
+
+
+
+
+  <!-- p4 part-->
+  <div class="p4-bg"> 
+    <!-- p4 Paragraph 1-->
+    <div class="p4-paragraph1-content-wrapper">      
+      <div class="p4-paragraph1">
+        <p class="p4-text1">
+          Orangutans, known as the "people of the forest" in Indonesian culture, 
+          share a remarkable <a href="https://www.orangutans-sos.org/learn/about-orangutans/" target="_blank" 
+          rel="noopener noreferrer" style="color:#A36448;text-decoration:underline;">96.4%</a> genetic 
+          similarity with humans. However, it is disheartening that the largest orangutan populations in Indonesia, 
+          both Bornean and Sumatran, are now 
+          <b> 
+            <a href="https://www.worldwildlife.org/species/orangutan" target="_blank" rel="noopener noreferrer" 
+            style="color:#A1362E;text-decoration:underline;">endangered</b></a>. The Bornean orangutan population is estimated at just
+            <a href="https://www.worldwildlife.org/species/bornean-orangutan" target="_blank" 
+            rel="noopener noreferrer" style="color:#A36448; text-decoration:underline;">
+            104,700</a>, while the Sumatran orangutan population stands at around 
+            <a href="https://www.worldwildlife.org/species/sumatran-orangutan" target="_blank" 
+            rel="noopener noreferrer" style="color:#A36448; text-decoration:underline;">14,613</a>, 
+            and both numbers continue to dwindle.
+        <!-- p4-Illustration 1-->
+        <img src="P4-Illustration1.png" alt="description">
+      </div>
+    </div>
+
+    <!-- p4-paragraph 2&3-->
+    <div class="p4-paragraph2And3-content-wrapper">      
+      <div class="p4-paragraph2">
+        <p class="p4-text2">
+          The alarming decline in orangutan populations, 
+          encompassing both Bornean and Sumatran species, 
+          can be primarily attributed to the extensive destruction 
+          of tropical rainforests in Sumatra and Kalimantan. This 
+          destructive trend is largely fueled by <b>the relentless 
+          expansion of oil palm plantations</b>, causing severe fragmentation 
+          of orangutan habitats and placing their very existence in jeopardy.
+
+        </p>
+
+        <p class="p4-text3"> 
+          To better understand the extent of this issue, the graph 
+          below depicts the distribution of wild orangutan habitats 
+          and oil palm plantations at different points in time. <a style="color:#764B36;font-weight:bold;">The 
+          red portion</a>  of <a style="color:#764B36;font-weight:bold;">the graph represents the extent of wild orangutan habitats in 2001
+          </a> , while <a style="color:#282914;font-weight:bold;">the black portion</a> 
+          depicts <a style="color:#282914;font-weight:bold;">the expansion of oil palm plantations up to 2019.</a>  
+          Clearly, the encroachment of oil palm plantations into previously untouched orangutan habitats is evident, 
+          emphasizing the urgent need for sustainable practices in the palm oil industry.
+        </p>
+      </div>
+    </div>  
+
+    <!-- p4 Figure 7 Part-->
+    <div class="p4-Figure7Part-content-wrapper">      
+      <div class="p4-Figure7Part">
+        <!-- p4 Figure 7 Title-->
+        <p class="p4-Figure7Title">Figure 7: The Distribution of wild orangutan habitats(2001) and oil palm plantations(2019).
+          <!-- p4 Figure 7 Chart -->
+          <div id="Figure7"></div>
+            <div id="legend" class="legend"></div>
+            <div id="labels" class="labels"></div>
+        </p>
+          
+
+        <!-- p4 Source 7-->
+        <p class="p4-Source7"> 
+          Source 7: <br>
+          1. <a style="color:#764B36;font-weight:bold;">The distribution of wild orangutan habitats in 2001</a> 
+          from Fig. 1 of Article  <a href="https://journals.openedition.org/primatologie/219" target="_blank" 
+          rel="noopener noreferrer" style="color:#9E6E6A;text-decoration:underline;">Circadian 
+          long call distribution in wild orangutans</a> by Marina Davila Ross et Thomas Geissmann. <br>
+          2. <a style="color:#282914;font-weight:bold;">The distribution of oil palm plantations in 2019</a> 
+          from Fig. 3 of Article  <a href="https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0266178#pone.0266178.s015" target="_blank" 
+          rel="noopener noreferrer" style="color:#9E6E6A;text-decoration:underline;">Slowing
+          deforestation in Indonesia follows declining oil palm expansion and lower oil prices </a> by David L. A. Gaveau, etc.
+        </p>
+      </div>
+    </div>  
+
+
+    <!-- p4 Figure 8-->
+    <div id="Figure8" class="chart">
+      <div class="Figure8-rectangle-bg">
+        <div class="Figure8-content">
+          <div class="Figure8-text-box">
+            <p1>
+              <b>Estimates suggest that industrial-scale 
+              plantations kill between <a href="https://orangutan.org/palmoil/" target="_blank" 
+              rel="noopener noreferrer" style="color:#A1362E;text-decoration:underline;">1,000 and 5,000 
+              orangutans annually.</a></b> 
+            </p1>
+            <QSTitle>
+              <b>
+                <a>
+                  How do oil palm plantations kill 
+                  orangutans?
+                </a>
+              </b> 
+            </QSTitle>
+    
+    
+            <!-- p4 Figure 8-Reason1Paragraph-->
+            <div class="Reason1Paragraph">
+                <Reason1>  
+                  <a> 
+                    Palm oil companies commonly drain and burn peat 
+                    orests to clear land for oil palm tree growth.
+                  </a>
+                </Reason1>
+                <description1>
+                      This practice caused an uncontrollable fire in Kalimantan in 1997-98, lasting  
+                      six months and killing up to <a href="https://rainforests.mongabay.com/08indo_fires.htm" 
+                      target="_blank" rel="noopener noreferrer" style="color:#A36448;text-decoration:underline;">
+                      8,000</a> orangutans. 
+                </description1>   
+                <img src="F8Reason1.png" alt="Illustration for Reason 1">
+            </div>   
+            
+            <!-- p4 Figure 8-Reason2Paragraph-->
+            <div class="Reason2Paragraph">
+              <Reason2>  
+                <a> 
+                  Habitat destruction deprives orangutans of their 
+                  food sources, compelling them to search for food in 
+                  isolated and dangerous areas of plantations.
+                </a>
+              </Reason2>
+              <description2>
+                It makes them susceptible to being hunted as pests or dying of starvation.
+              </description2>   
+              <img src="F8Reason2.png" alt="Illustration for Reason 2">
+            </div>  
+    
+    
+            <!-- p4-Figure8-Reason3Paragraph-->
+            <div class="Reason3Paragraph">
+              <Reason3>  
+                <a> 
+                  Oil palm companies view orangutans as pests and
+                  deliberately set policies to poach them, according to
+                  the Center for Orangutan Conservation (COP).              
+                </a>
+              </Reason3>
+              <description3>
+                Pest control hired by palm oil companies kills any wildlife, including 
+                orangutans, that damages oil palm trees and often show the company the 
+                hand of the killed orangutan as proof of their success.          
+              </description3>   
+              <img src="F8Reason3.png" alt="Illustration for Reason 3">
+            </div> 
+    
+            <!-- p4-Figure8-Resource8-->
+            <p class="p4-Resource8">
+              Source 8: <a href="https://www.thegreatprojects.com/palm-oil-a-dark-future-for-orangutans" 
+              target="_blank" rel="noopener noreferrer" style="color:#AE7862;text-decoration:underline;">
+              Palm Oil: A Dark Future For Orangutans</a> by the great projects
+            </p>
+          </div>
+        <!-- Link to p4-script.JS -->
+        <script src="p4-script.js"></script>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+  <!-- p5 part-->
+  <div class="p5-bg"> 
+    <!-- p5-paragraph -->    
+    <div class="p5-paragraph-content-wrapper">      
+      <div class="p5-paragraph">
+        <p class="p5-text">
+        <!-- Introduction on the importance of palm oil -->
+          <b>Given the devastating impact that palm  
+          oil production has on orangutans, you  
+          may be wondering why we don't simply  
+          stop using it altogether.</b>
+        </p>
+      </div>
+    </div>
+  
+    <!-- p5-Figure9 -->   
+    <div class="p5-Figure9-content-wrapper">      
+      <div class="Figure9-paragraph">
+        <p class="Figure9-text1">
+        <!-- Information about the efficiency of palm oil production -->
+          Besides it is true that palm oil has become an integral part of 
+          our daily lives, there is an important consideration that warrants 
+          attention. Switching away from palm oil to other oil crops could 
+          potentially result in fourther loss of biodiversity.
+        </p>
+
+        <p class="Figure9-text2">
+        <!-- Additional details about the efficiency and benefits of palm oil -->
+          <b>Palm oil's remarkable efficiency distinguishes it as an incredibly 
+          productive crop, outperforming other major oilseed crops in oil 
+          production.</b> To put it in perspective, sunflower oil, which is 
+          the second highest yielding crop, produces only 24.74% of what 
+          palm oil yields per hectare. This exceptional efficiency not only 
+          boosts the cost-effectiveness of palm oil, but also enhances its 
+          appeal among manufacturers and consumers, making it a favored choice.
+        </p>
+      </div>
+    <div id="Figure9" class="chart"></div>
+    </div>
+
+
+    <!-- Figure10&11-Dropdown menu -->
+      <div class="p10-Dropdown-content-wrapper">    
+        <select id="chartType1" name="chartType1">
+          <option value="BarChart">Bar Chart</option>
+          <option value="PieChart">Pie Chart</option>
+        </select>
+      </div>
+
+    <!-- p5-Figure10 -->
+      <div class="p5-Figure10-content-wrapper">         
+        <div class="Figure10-paragraph">
+          <p class="Figure10-text">
+          <!-- Information about the employment opportunities in the palm oil industry -->
+            Furthermore, it is important to acknowledge that the palm oil industry 
+            plays a significant role in providing employment opportunities to  <b>over 4.42 
+            million people</b>.These workers are also primarily concentrated in the regions of 
+            <b>Sumatra</b> and <b>Kalimantan</b>, and they are involved in various stages of production, 
+            including <a href="https://www.fao.org/3/Y4355E/y4355e04.htm" target="_blank" rel="noopener noreferrer" 
+            style="color: #764B36; font-style: underline;">planting, harvesting, processing, and transportation. </a>       
+          </p>
+        </div>
+          <div id="Figure10" class="chart"></div>
+      </div>
+  
+  
+    <!-- p5-Figure11 -->  
+      <div class="p5-Figure11-content-wrapper">         
+        <div class="p5-Figure11">
+          <p class="p5-Figure11text">
+          <!-- Conclusion on the complexities of the palm oil issue -->
+            As we can see, this is a complex issue with multiple facets, 
+            lacking easy solutions. Halting palm oil production could result 
+            in significant job losses, while transitioning to alternative 
+            vegetable oils may lead to further habitat destruction. However, 
+            it is evident that we must take action to protect orangutans and 
+            their habitats, while also supporting sustainable palm oil practices 
+            that benefit both local communities and the environment.
+          </p>
+        </div>
+
+      <!-- p5-Figure11 Chart -->
+        <div id="Figure11" class="chart">
+          <div class="Figure11-rectangle-bg">
+            <div class="Figure11-content">
+              <div class="Figure11-text-box">   
+              <!-- Title for the chart and space for Figure 11 -->
+                <h2>
+                  <b>Non-feasible measures and consequences</b> 
+                </h2>
+                <img src="F11.png" alt="Figure11">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Link to p5-script.JS -->
+    <script src="p5-script.js"></script> 
+
+
+
+
+
+  <!-- p6 part-->
+  <div class="p6-bg">
+    <!-- p6-paragraph1-->  
+    <div class="p6-paragraph1-content-wrapper">          
+      <div class="p6-paragraph1">
+        <p class="p6-text1">
+          <!-- Introduction to the concept of sustainable palm oil -->
+          <b>So, in this context, <br>producing <a style="color:#4C7031;">sustainable 
+          palm oil</a> indeed becomes a feasible solution...</b>          
+        </p>
+      </div>
+    </div>
+
+    <!-- p6-Illustration1-->   
+    <div class="p6-Illustration1-content-wrapper">          
+      <div class="p6Illustration1-paragraph">
+        <p class="p6Illustration1-text">
+          <!-- Details about sustainable palm oil production -->
+          <b><a href="https://www.eco-business.com/news/what-is-sustainable-palm-oil/" target="_blank" rel="noopener noreferrer" style="color:#4C7031; font-style: underline;">
+          Sustainable palm oil</a></b> production utilizes already-cleared land, 
+          thereby avoiding further deforestation. This mindful approach helps to minimize the impact
+          on the environment and wildlife, while also supporting local 
+          communities.
+        </p>
+        <img src="p6Illustration1.png" alt="p6Illustration1">
+      </div>
+    </div>  
+
+    <!-- p6-paragraph2-->  
+    <div class="p6-paragraph2-content-wrapper">           
+      <div class="p6-paragraph2">
+        <p class="p6-text2">
+          <b>
+            <!-- Question about identifying sustainable palm oil products -->
+            But how do we know if a product uses <a style="color:#4C7031;">sustainable palm oil</a>?
+          </b>          
+        </p>
+      </div>
+
+      <!-- p6-Illustration2-->   
+      <div class="p6Illustration2-paragraph">
+        <p class="p6Illustration2-text1">
+          <!-- Role of consumers in sustainable palm oil production -->
+          As consumers, our role is indeed powerful; 
+          The choices we make when purchasing directly 
+          shape the supply and demand chain, and in 
+          turn, influence supplier behavior.
+
+        </p>
+        <p class="p6Illustration2-text2">
+          <!-- How to identify sustainable palm oil products -->
+          To identify products containing sustainable palm oil, look for the 
+          <b><a style="color:#2B9B29;">RSPO</a></b> (Roundtable on Sustainable Palm Oil) 
+          logo during your shopping endeavors - the gold standard in sustainable palm oil production. 
+          This symbol signifies adherence to <b><a href="https://www.bsigroup.com/en-AU/RSPO-for-Sustainable-Palm-Oil/rspo-principles-and-criteria/" 
+          target="_blank" rel="noopener noreferrer" style="color:#764B36; font-style: underline;">eight strict 
+          <b style="color:#2B9B29;">RSPO</b> principles</a></b>, assuring that palm oil producers 
+          follow these critical standards.
+
+        </p>      
+        <img src="p6Illustration2.png" alt="p6Illustration2">
+      </div>
+    </div>   
+
+    <!-- p6-Illustration3--> 
+    <div class="p6-Illustration3-content-wrapper">             
+      <div class="p6Illustration3-paragraph">
+        <p class="p6Illustration3-text1">
+          <!-- Current progress of sustainable palm oil production -->
+          However, progress has been slow. As of 2020, <b><a style="color:#2B9B29;">RSPO</a></b> 
+          certified sustainable palm oil constitutes a mere  <a href="https://rspo.org/acop-2020--latin-america-and-north-america-report-robust-results/" 
+          target="_blank" rel="noopener noreferrer" style="color:#764B36;text-decoration:underline;">19%</a> of the total global palm oil supply.  
+          This illustrates the struggle that sustainable palm oil has faced in gaining widespread acceptance.  
+        </p>
+        <p class="p6Illustration3-text2">
+          <!-- Encouragement to support sustainable palm oil -->
+          Therefore, If labor welfare in Indonesia's palm oil industry or 
+          orangutan survival are issues that resonate with you, opt for 
+          products bearing the  <b><a style="color:#2B9B29;">RSPO</a></b> logo when you shop. If you cannot find any products
+          with the logo, don't hesitate to reach out to manufacturers, 
+          advocating for the use of sustainable palm oil.
+        </p>  
+      </div>   
+      
+      <!-- p6-paragraph3-->   
+      <div class="p6-paragraph3-content-wrapper">          
+        <div class="p6-paragraph3">
+          <p class="p6-text3">
+            <b>
+              <!-- Conclusion and call to action for sustainable palm oil -->
+              Together, let's do our part for our environment, 
+              wildlife, and future through mindful buying decisions.
+            </b>        
+          </p>
+          <img src="p6Illustration3.png" alt="p6Illustration3">
+        </div>
+      </div>   
+    </div>      
+
+
+</body>
+

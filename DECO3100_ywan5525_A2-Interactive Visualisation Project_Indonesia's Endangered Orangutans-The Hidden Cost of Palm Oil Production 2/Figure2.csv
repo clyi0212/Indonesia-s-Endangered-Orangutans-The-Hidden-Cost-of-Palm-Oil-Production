@@ -1,0 +1,160 @@
+ids,labels,parents,hovertexts
+Food,Food,,"""Palm oil is a common ingredient<br>in many food products due to its<br>versatility and cost-efficiency. It<br>improves the texture, enhances<br>the flavor, and extends the shelf-<br>life of food products."""
+Food-Baked Goods,Baked Goods,Food,"""Palm oil is used in baking for its<br>ability to enhance texture,<br>providing baked goods with a<br>light and flaky consistency. It's<br>also stable at high temperatures,<br>making it ideal for baking."""
+Food-Baked Goods-Doughnuts,Doughnuts,Food-Baked Goods,"""Palm oil is used in doughnuts for<br>frying due to its stability at high<br>temperatures. It's also used in<br>the dough to create a soft and<br>moist texture."""
+Food-Baked Goods-Cakes,Cakes,Food-Baked Goods,"""Palm oil is used in cakes to keep<br>them moist and to help in the<br>browning process. It is also used<br>in frosting due to<br>its solid<br>consistency at room temperature."""
+Food-Baked Goods-Cupcakes,Cupcakes,Food-Baked Goods,"""Like cakes, palm oil is used in<br>cupcakes to provide a moist<br>texture and assist in the baking<br>process. It is also commonly<br>used in the frosting."""
+Food-Baked Goods-Cookies,Cookies,Food-Baked Goods,"""Palm oil is used in cookies for its<br>ability to provide a crisp and<br>crunchy texture. It also helps to<br>extend the shelf-life of the<br>product."""
+Food-Baked Goods-Pies,Pies,Food-Baked Goods,"""Palm oil is often used in pie<br>crusts for its ability to create a<br>flaky texture. It's also used in the<br>filling for cream-based pies to<br>provide a smooth consistency."""
+Food-Baked Goods-Tarts,Tarts,Food-Baked Goods,"""Palm oil is used in tarts,<br>particularly in the crust, to<br>provide a flaky and firm texture.<br>It also aids in the browning<br>process."""
+Food-Baked Goods-Scones,Scones,Food-Baked Goods,"""Palm oil is used in scones to<br>provide a light and flaky texture,<br>and to enhance the taste."""
+Food-Baked Goods-Cobblers,Cobblers,Food-Baked Goods,"""Palm oil is used in cobblers to<br>create a tender and flaky crust. It<br>also helps to thicken the fruit<br>filling."""
+Food-Baked Goods-Snack Cakes,Snack Cakes,Food-Baked Goods,"""Palm oil is used in snack cakes to<br>provide a moist texture and<br>extend shelf-life. It is also used in<br>the cream filling and frosting."""
+Food-Baked Goods-Bread,Bread,Food-Baked Goods,"""Palm oil is used in bread to<br>improve the texture and to<br>extend the shelf life. It can also<br>provide a light and fluffy<br>consistency."""
+Food-Baked Goods-Rolls,Rolls,Food-Baked Goods,"""Palm oil is used in rolls to<br>enhance the texture, providing a<br>light and airy consistency. It also<br>aids in the browning process."""
+Food-Baked Goods-Pie Crust,Pie Crust,Food-Baked Goods,"""Palm oil is commonly used in pie<br>crusts due to its ability to provide a flaky texture and to<br>withstand high baking<br>emperatures."""
+Food-Baking Ingredients,Baking Ingredients,Food,"""Palm oil is used in baking<br>ingredients for its stability at<br>high temperatures and ability to<br>create a desirable texture. It is<br>often found in products like<br>shortening, cake mixes, and frosting."""
+Food-Baking Ingredients-Canned Frosting,Canned Frosting,Food-Baking Ingredients,"""Palm oil is commonly used in<br>canned frosting as it helps to<br>stabilize the frosting, provide a<br>smooth texture, and prevent<br>separation."""
+Food-Baking Ingredients-Shortening,Shortening,Food-Baking Ingredients,"""Palm oil is a common ingredient<br>in shortening due to its solid<br>consistency at room<br>temperature. It is used in baking<br>to create flaky pastries and<br>tender baked goods."""
+Food-Baking Ingredients-Cake Mixes,Cake Mixes,Food-Baking Ingredients,"""Palm oil is often included in cake<br>mixes to enhance texture, improve shelf life, and provide a<br>moist and tender crumb."""
+Food-Baking Ingredients-Food Dye,Food Dye,Food-Baking Ingredients,"""Palm oil is sometimes used in<br>food dyes to enhance solubility<br>and improve color dispersion in<br>various food products."""
+Food-Candy,Candy,Food,"""Palm oil's smooth texture and<br>stability make it a popular choice<br>for candy manufacturers. It<br>prevents melting and helps<br>maintain a consistent texture."""
+Food-Candy-Chocolate,Chocolate,Food-Candy,"""Palm oil is used in chocolate<br>products to improve texture,<br>prevent blooming (the appearance of white spots on<br>the surface), and extend shelf<br>life."""
+Food-Candy-Chewy Candy,Chewy Candy,Food-Candy,"""Palm oil is used in chewy candies<br>to provide a smooth and creamy<br>texture. It also helps prevent<br>sticking and melting during<br>storage."""
+Food-Cereal,Cereal,Food,"""Palm oil is used in cereals to help<br>improve texture and taste. It is<br>also used in the fortification of<br>certain vitamins."""
+Food-Cereal-Cereal with Vitamin A,Cereal with Vitamin A,Food-Cereal,"""Palm oil is added to some cereals<br>to provide a source of vitamin A,<br>as it is a natural source of this<br>essential nutrient."""
+Food-Cooking Ingredients,Cooking Ingredients,Food,"""Palm oil is a common ingredient<br>in many cooking sprays due to its<br>stability at high temperatures<br>and its ability to prevent food<br>from sticking."""
+Food-Cooking Ingredients-Cooking Spray,Cooking Spray,Food-Cooking Ingredients,"""Palm oil is used in cooking spray<br>as a non-stick agent, allowing<br>food to be easily released from<br>cooking surfaces."""
+Food-Fast Food,Fast Food,Food,"""Fast food often uses palm oil for<br>frying because it is inexpensive<br>and has a high smoke point."""
+Food-Fast Food-Various,Various,Food-Fast Food,
+Food-Food Additives,Food Additives,Food,"""Palm oil is used in various food<br>additives for its functional<br>properties, such as<br>emulsification, texture<br>enhancement, and shelf-life<br>extension."""
+Food-Food Additives-Food Coloring,Food Coloring,Food-Food Additives,"""Palm oil is sometimes used as a<br>carrier for food coloring to improve its solubility and<br>stability in food products."""
+Food-Fried Food,Fried Food,Food,"""Palm oil is commonly used for<br>frying due to its high smoke point<br>and stability at high<br>temperatures, resulting in crispy<br>and delicious fried foods."""
+Food-Fried Food-Fried Onions,Fried Onions,Food-Fried Food,"""Palm oil is often used for frying<br>onions to achieve a crispy and<br>golden texture. It also adds<br>flavor to the fried onions."""
+Food-Frosting,Frosting,Food,"""Palm oil is used in frosting to<br>provide a creamy texture, stabilize<br>the frosting, and improve its<br>spreadability."""
+Food-Frosting-Various,Various,Food-Frosting,
+Food-Snack Bars,Snack Bars,Food,"""Palm oil is used in snack bars to<br>provide texture, enhance shelf<br>life, and act as a binding agent<br>for the ingredients."""
+Food-Snack Bars-Granola Bars,Granola Bars,Food-Snack Bars,"""Palm oil is commonly used in<br>granola bars to provide a<br>cohesive texture, prevent<br>crumbling, and improve shelf<br>life."""
+Food-Gum,Gum,Food,"""Palm oil is sometimes used in<br>gum as a softening agent to keep<br>it chewable and prevent it from<br>becoming hard and brittle."""
+Food-Gum-Various,Various,Food-Gum,
+Food-Ice Cream,Ice Cream,Food,"""Palm oil is used in ice cream to<br>improve texture and creaminess.<br>It helps prevent ice crystals and<br>maintains the shape and<br>structure of the ice cream."""
+Food-Ice Cream-Various,Various,Food-Ice Cream,
+Food-Pasta,Pasta,Food,"""Palm oil is sometimes used in<br>pasta production to prevent<br>sticking and provide a smooth<br>texture."""
+Food-Pasta-Mac,Mac and Cheese,Food-Pasta,"""Palm oil is commonly used in<br>mac and cheese products as it<br>contributes to the creamy<br>consistency and enhances the<br>flavor."""
+Food-Pasta-Instant Noodles,Instant Noodles,Food-Pasta,"""Palm oil is often used in the<br>production of instant noodles to<br>improve texture, prevent<br>sticking, and extend shelf life."""
+Food-Spreads,Spreads,Food,"""Palm oil is used in various<br>spreads, such as chocolate<br>spreads or sandwich spreads, to<br>provide a smooth and<br>spreadable consistency."""
+Food-Spreads-Peanut Butter,Peanut Butter,Food-Spreads,"""Palm oil is sometimes added to<br>peanut butter to prevent oil<br>separation, improve texture, and<br>enhance shelf stability."""
+Food-Spreads-Margarine,Margarine,Food-Spreads,"""Palm oil is a common ingredient<br>in margarine, providing a<br>spreadable texture and<br>contributing to the richness and<br>flavor."""
+Food-Medicine and Vitamins,Medicine and Vitamins,Food,"""Palm oil is used in the<br>production of some medicines<br>and vitamin supplements as a<br>carrier for fat-soluble<br>ingredients."""
+Food-Medicine and Vitamins-Various,Various,Food-Medicine and Vitamins,
+Food-Snacks,Snacks,Food,"""Palm oil is commonly used in snacks for its ability to improve texture and taste. It also increases the product's shelf life."""
+Food-Snacks-Potato Crisps,Potato Crisps,Food-Snacks,"""Palm oil is often used in the<br>production of potato crisps<br>(chips) to achieve a crispy<br>texture and enhance flavor."""
+Food-Snacks-Microwave Popcorn,Microwave Popcorn,Food-Snacks,"""Palm oil is commonly used in<br>microwave popcorn to coat the<br>popcorn kernels evenly, provide<br>a buttery flavor, and enhance<br>popping."""
+Food-Snacks-Shoestring Potatoes,Shoestring Potatoes,Food-Snacks,"""Palm oil is sometimes used in the<br>production of shoestring<br>potatoes (thin-cut fries) to<br>achieve a crispy texture and<br>enhance flavor."""
+Food-Pizza,Pizza,Food,"""Palm oil may be used in pizza<br>production, such as in the dough,<br>sauce, or toppings, to enhance<br>flavor and texture."""
+Food-Pizza-Various,Various,Food-Pizza,
+Food-Refrigerated Dough,Refrigerated Dough,Food,"""Palm oil is used in refrigerated<br>dough products, such as<br>crescent rolls or biscuit dough,<br>to improve texture and extend<br>shelf life."""
+Food-Refrigerated Dough-Various,Various,Food-Refrigerated Dough,
+Food-Salad Dressing,Salad Dressing,Food,"""Palm oil is used in some salad<br>dressings to provide a creamy<br>texture, improve stability, and<br>enhance flavor."""
+Food-Salad Dressing-Various,Various,Food-Salad Dressing,
+Food-Spices and Seasonings,Spices and Seasonings,Food,"""Palm oil may be used in the<br>production of some spice blends<br>and seasonings to improve<br>texture and aid in flavor<br>dispersion."""
+Food-Spices and Seasonings-Various,Various,Food-Spices and Seasonings,
+Food-Vegan Products,Vegan Products,Food,"""Palm oil is used in various vegan<br>food products as a substitute for<br>animal-based fats, providing<br>texture, richness, and stability."""
+Food-Vegan Products-Various,Various,Food-Vegan Products,
+Food-Creamers,Creamers,Food,"""Palm oil is commonly used in<br>coffee creamers and non-dairy<br>creamers to provide a creamy<br>texture and enhance flavor."""
+Food-Creamers-Various,Various,Food-Creamers,
+Food-Drink Mixes,Drink Mixes,Food,"""Palm oil may be used in<br>powdered drink mixes to<br>improve solubility, provide a<br>smooth mouthfeel, and enhance<br>flavor."""
+Food-Drink Mixes-Various,Various,Food-Drink Mixes,
+Food-Flavored Drinks,Flavored Drinks,Food,"""Palm oil is sometimes used in<br>flavored drinks, such as fruit<br>punches or flavored waters, to<br>enhance texture and flavor."""
+Food-Flavored Drinks-Various,Various,Food-Flavored Drinks,
+Food-Sports Drinks,Sports Drinks,Food,"""Palm oil is used in some sports<br>drinks to provide energy in the<br>form of medium-chain triglycerides (MCTs) and enhance<br>mouthfeel."""
+Food-Sports Drinks-Various,Various,Food-Sports Drinks,
+Food-Milk,Milk,Food,"""Palm oil may be used in milk<br>products to enhance creaminess,<br>improve texture, and contribute<br>to the richness of the product."""
+Food-Milk-Nut Milk,Nut Milk,Food-Milk,"""Palm oil is sometimes used in nut<br>milk products, such as almond<br>milk or cashew milk, to provide a<br>creamy texture and enhance flavor."""
+Food-Milk-Soy Milk,Soy Milk,Food-Milk,"""Palm oil is occasionally used in<br>soy milk products to improve<br>mouthfeel, enhance creaminess,<br>and stabilize the product."""
+,,,
+,,,
+Consumer Products,Consumer Products,,"""Palm oil is used in a variety of<br>consumer products. Its<br>derivatives are often found in<br>products such as soap,<br>cosmetics, and cleaning<br>products."""
+Consumer Products-Soap,Soap,Consumer Products,"""Palm oil is used in soap as it is a<br>good foaming agent and its<br>derivatives help to clean and<br>moisturize skin."""
+Consumer Products-Soap-Liquid Soap,Liquid Soap,Consumer Products-Soap,"""Palm oil is used in liquid soap as<br>a moisturizing agent and to<br>create a rich, creamy lather."""
+Consumer Products-Soap-Bar Soap,Bar Soap,Consumer Products-Soap,"""Palm oil is commonly used in bar<br>soap due to its ability to produce<br>a hard, long-lasting bar that<br>maintains its shape and<br>durability."""
+Consumer Products-Makeup,Makeup,Consumer Products,"""In makeup, palm oil is used for its<br>ability to hold color well and<br>adhere to the skin. It can be<br>found in products like lipstick,<br>foundation, and mascara."""
+Consumer Products-Makeup-Mascara,Mascara,Consumer Products-Makeup,"""Palm oil is used in mascara to<br>create a smooth and creamy<br>texture, making it easier to apply<br>and preventing clumping of the<br>lashes."""
+Consumer Products-Makeup-Lipstick,Lipstick,Consumer Products-Makeup,"""Palm oil is used in lipstick as it<br>holds color well, provides a<br>smooth application, and helps<br>prevent melting at high<br>temperatures. It also adds<br>a luxurious feel to the lipstick."""
+Consumer Products-Makeup-Powders,Powders,Consumer Products-Makeup,"""Palm oil is sometimes used in<br>powdered cosmetics such as<br>face powders and eyeshadows to<br>enhance their texture and help<br>them adhere to the skin."""
+Consumer Products-Makeup-Foundation,Foundation,Consumer Products-Makeup,"""Palm oil is used in foundation to<br>provide a smooth and even<br>application. It helps the<br>foundation blend seamlessly<br>with the skin and gives it a<br>lightweight feel."""
+Consumer Products-Makeup-Nail Polish,Nail Polish,Consumer Products-Makeup,"""Palm oil derivatives are used in<br>nail polish to create a smooth<br>and glossy finish. They help<br>improve the consistency and<br>flow of the polish during<br>application."""
+Consumer Products-Makeup-Lip Balm,Lip Balm,Consumer Products-Makeup,"""Palm oil is used in lip balm for its<br>moisturizing properties. It helps<br>keep the lips hydrated, soft, and<br>protected from dryness and<br>cracking."""
+,,,
+Consumer Products-Deodorant,Deodorant,Consumer Products,"""Palm oil derivatives in<br>deodorants act as a skin<br>conditioning agent. They also<br>help to improve the product's<br>texture."""
+Consumer Products-Deodorant-Spray Deodorant,Spray Deodorant,Consumer Products-Deodorant,"""Palm oil derivatives are used in<br>spray deodorants as a base<br>ingredient to help deliver the<br>active ingredients and provide a<br>smooth mist upon application."""
+Consumer Products-Deodorant-Solid Deodorant,Solid Deodorant,Consumer Products-Deodorant,"""Palm oil derivatives are used in<br>solid deodorants to create a<br>smooth and creamy texture that<br>glides easily onto the skin. They<br>also help to provide long-lasting<br>odor protection."""
+Consumer Products-Deodorant-Cream Deodorant,Cream Deodorant,Consumer Products-Deodorant,"""Palm oil derivatives are used in<br>cream deodorants for their<br>emollient properties, which help<br>to moisturize and soften the skin.<br>They also contribute to the<br>creamy texture of the product."""
+,,,
+Consumer Products-Skin Care,Skin Care,Consumer Products,"""Palm oil and its derivatives are<br>common in skin care products.<br>They provide moisturizing<br>properties and help improve<br>product texture."""
+Consumer Products-Skin Care-Lotion,Lotion,Consumer Products-Skin Care,"""Palm oil derivatives are used in<br>lotions to provide moisture and<br>hydration to the skin. They help<br>to prevent dryness and maintain<br>the skin's natural barrier."""
+Consumer Products-Skin Care-Moisturizer,Moisturizer,Consumer Products-Skin Care,"""Palm oil derivatives are used in<br>moisturizers to deeply hydrate<br>and nourish the skin. They help<br>to improve skin elasticity and<br>maintain a smooth and healthy<br>complexion."""
+,,,
+Consumer Products-Hair Care,Hair Care,Consumer Products,"""Palm oil is used in hair care<br>products as it can restore hair's<br>natural oils, provide a silky feel,<br>and aid in detangling."""
+Consumer Products-Hair Care-Shampoo,Shampoo,Consumer Products-Hair Care,"""Palm oil derivatives are used in<br>shampoos for their cleansing and<br>conditioning properties. They<br>help to remove dirt and<br>impurities from the hair while<br>leaving it moisturized and<br>refreshed."""
+Consumer Products-Hair Care-Conditioner,Conditioner,Consumer Products-Hair Care,"""Palm oil derivatives are used in<br>conditioners to provide deep<br>hydration and nourishment to<br>the hair. They help to detangle<br>and soften the hair, making it<br>more manageable."""
+,,,
+Consumer Products-Shaving Products,Shaving Products,Consumer Products,"""In shaving products, palm oil is<br>used for its moisturizing and skin<br>soothing properties."""
+Consumer Products-Shaving Products-Shaving Cream,Shaving Cream,Consumer Products-Shaving Products,"""Palm oil derivatives are used in<br>shaving creams to provide a rich<br>and creamy lather. They help to<br>soften the hair and protect the<br>skin during shaving."""
+Consumer Products-Shaving Products-Shaving Gel,Shaving Gel,Consumer Products-Shaving Products,"""Palm oil derivatives are used in<br>shaving gels to provide a<br>lubricating barrier between the<br>razor and the skin. They help to<br>reduce razor burn and irritation."""
+,,,
+Consumer Products-Sunscreen,Sunscreen,Consumer Products,"""Palm oil is used in sunscreen for<br>its skin conditioning properties<br>and for its ability to help evenly<br>distribute UV filters across the<br>skin."""
+Consumer Products-Sunscreen-Various,Various,Consumer Products-Sunscreen,
+,,,
+Consumer Products-Toothpaste,Toothpaste,Consumer Products,"""Palm oil derivatives are<br>sometimes used in toothpaste<br>formulations for their texture-<br>enhancing properties. They help<br>to create a smooth and creamy<br>consistency."""
+Consumer Products-Toothpaste-Various,Various,Consumer Products-Toothpaste,
+,,,
+Consumer Products-Wipes,Wipes,Consumer Products,"""Palm oil derivatives are<br>sometimes used in wet wipes for<br>their emollient properties. They<br>help to moisturize and soothe<br>the skin while providing a gentle<br>cleansing action."""
+Consumer Products-Wipes-Various,Various,Consumer Products-Wipes,
+,,,
+Consumer Products-Detergents and Cleaners,Detergents and Cleaners,Consumer Products,"""Palm oil is used in detergents<br>and cleaning products as it is an<br>effective surfactant and aids in<br>cleaning."""
+Consumer Products-Detergents and Cleaners-All-purpose spray,All-purpose spray,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in all-purpose sprays for their<br>emulsifying and cleansing<br>properties. They help to<br>effectively clean various<br>surfaces and remove dirt, grime,<br>and grease."""
+Consumer Products-Detergents and Cleaners-Bathroom Cleaner,Bathroom Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in bathroom cleaners for their<br>ability to dissolve soap scum,<br>mineral deposits, and stains.<br>They help to effectively clean and disinfect bathroom surfaces."""
+Consumer Products-Detergents and Cleaners-Dish Soap,Dish Soap,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives are<br>commonly used in dish soaps for<br>their ability to cut through<br>grease and remove food<br>residues. They help to create a<br>rich lather and leave dishes clean<br>and shiny."""
+Consumer Products-Detergents and Cleaners-Dishwasher Detergent,Dishwasher Detergent,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in dishwasher detergents as<br>surfactants and emulsifiers. They<br>help to remove food particles<br>and stains from dishes, glasses,<br>and utensils."""
+Consumer Products-Detergents and Cleaners-Disposable Sweeper Pads,Disposable Sweeper Pads,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in disposable sweeper pads as a<br>coating to attract and trap dust,<br>dirt, and pet hair. They help to<br>effectively clean floors and<br>surfaces."""
+Consumer Products-Detergents and Cleaners-Floor Cleaner,Floor Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives are commonly<br>used in floor cleaners<br>for their ability to remove dirt,<br>stains, and grime from various<br>types of flooring. They help to<br>leave floors clean and shiny."""
+Consumer Products-Detergents and Cleaners-Furniture Polish,Furniture Polish,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in furniture polishes for their<br>ability to enhance the<br>appearance of wood and other<br>surfaces. They help to provide a<br>protective layer, restore shine, and reduce the visibility of<br>scratches."""
+Consumer Products-Detergents and Cleaners-Glass Cleaner,Glass Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used in glass cleaners for their ability to remove fingerprints, smudges, and streaks from glass surfaces. They help to leave glass clean<br>and sparkling."""
+Consumer Products-Detergents and Cleaners-Laundry Detergent,Laundry Detergent,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives are<br>commonly used in laundry<br>detergents as surfactants and<br>emulsifiers. They help to remove<br>stains, dirt, and odors from<br>clothes and fabrics."""
+Consumer Products-Detergents and Cleaners-Multi-purpose Cleaner,Multi-purpose Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in multi-purpose cleaners for<br>their versatility in cleaning<br>various surfaces. They help to<br>remove dirt, grease, and stains<br>from different areas of the home."""
+Consumer Products-Detergents and Cleaners-Oven Cleaner,Oven Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in oven cleaners for their ability<br>to dissolve and remove baked-on<br>grease, food residues, and stains.<br>They help to effectively clean<br>ovens and restore their<br>appearance."""
+Consumer Products-Detergents and Cleaners-Stain Remover,Stain Remover,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in stain removers for their ability<br>to break down and remove tough<br>stains from fabrics, carpets, and<br>upholstery. They help to restore<br>the original color and<br>appearance of the material."""
+Consumer Products-Detergents and Cleaners-Toilet Bowl Cleaner,Toilet Bowl Cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in toilet bowl cleaners for their<br>ability to remove mineral<br>deposits, stains, and bacteria<br>from toilet bowls. They help to<br>effectively clean and disinfect<br>the toilet."""
+Consumer Products-Detergents and Cleaners-Window cleaner,Window cleaner,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in window cleaners for their<br>ability to remove dirt, smudges,<br>and streaks from glass surfaces.<br>They help to leave windows<br>clean and streak-free."""
+Consumer Products-Detergents and Cleaners-Wipes,Wipes,Consumer Products-Detergents and Cleaners,"""Palm oil derivatives may be used<br>in wet wipes for their ability to<br>provide moisture and gentle<br>cleansing. They help to<br>effectively clean and refresh<br>various surfaces and skin."""
+,,,
+Consumer Products-Candles,Candles,Consumer Products,"""Palm wax, a derivative of palm<br>oil, is sometimes used in candle<br>production. It provides a clean<br>and slow-burning fuel source for<br>candles."""
+Consumer Products-Candles-Various,Various,Consumer Products-Candles,
+,,,
+Consumer Products-Throat Soothers,Throat Soothers,Consumer Products,"""Palm oil derivatives are<br>sometimes used in throat<br>soothers, such as cough drops<br>and throat lozenges, to provide a<br>soothing and moisturizing effect<br>on the throat."""
+Consumer Products-Throat Soothers-Cough Drops,Cough Drops,Consumer Products-Throat Soothers,"""Palm oil derivatives soothe and<br>provide relief from cough and<br>throat irritation."""
+Consumer Products-Throat Soothers-Throat Lozenges,Throat Lozenges,Consumer Products-Throat Soothers,"""Palm oil derivatives soothe sore<br>throats and offer temporary<br>cough relief."""
+,,,
+Consumer Products-Vaping Products,Vaping Products,Consumer Products,"""Some e-juices and e-liquids used<br>in vaping products may contain<br>palm oil derivatives as a carrier<br>or flavoring agent."""
+Consumer Products-Vaping Products-E-juice,E-juice,Consumer Products-Vaping Products,"""Some e-juices may contain palm<br>oil derivatives as a carrier or<br>flavoring ingredient."""
+Consumer Products-Vaping Products-E-liquid,E-liquid,Consumer Products-Vaping Products,"""Palm oil derivatives may be used<br>in the production of e-liquids as<br>a base or additive."""
+Consumer Products-Vaping Products-Vape juice,Vape juice,Consumer Products-Vaping Products,"""Vape juices may contain palm oil<br>derivatives as a component of<br>the formulation."""
+,,,
+Consumer Products-Medicine,Medicine,Consumer Products,"""Palm oil derivatives can be found<br>in certain medications, including<br>gel caps, tablets, pills, and<br>liquids, as excipients or coating<br>agents."""
+Consumer Products-Medicine-Gel Caps,Gel Caps,Consumer Products-Medicine,"""Gel capsules may contain palm<br>oil derivatives in the gelatin shell<br>or as a lubricating agent."""
+Consumer Products-Medicine-Tablets,Tablets,Consumer Products-Medicine,"""Palm oil derivatives may be used<br>in the manufacturing process of<br>tablets as binding agents or for<br>coating purposes."""
+Consumer Products-Medicine-Pills,Pills,Consumer Products-Medicine,"""Some pills may contain palm oil<br>derivatives in the formulation or<br>as part of the outer coating."""
+Consumer Products-Medicine-Liquids,Liquids,Consumer Products-Medicine,"""Palm oil derivatives can be found<br>in various liquid medications,<br>such as syrups or suspensions,<br>as a solubilizer or stabilizing<br>agent."""
+,,,
+Consumer Products-Vitamins,Vitamins,Consumer Products,"""Palm oil derivatives may be used<br>in the production of vitamin<br>supplements, including liquid<br>vitamins, gel vitamins, gummy<br>vitamins, and tablet vitamins."""
+Consumer Products-Vitamins-Liquid Vitamins,Liquid Vitamins,Consumer Products-Vitamins,"""Liquid vitamin formulations may<br>contain palm oil derivatives as<br>part of the carrier or as an<br>emulsifier."""
+Consumer Products-Vitamins-Gel Vitamins,Gel Vitamins,Consumer Products-Vitamins,"""Gel vitamins may utilize palm oil<br>derivatives in the gelatin-based<br>formulation."""
+Consumer Products-Vitamins-Gummy Vitamins,Gummy Vitamins,Consumer Products-Vitamins,"""Some gummy vitamins may<br>contain palm oil derivatives as<br>part of the gummy texture or<br>coating."""
+Consumer Products-Vitamins-Tablet Vitamins,Tablet Vitamins,Consumer Products-Vitamins,"""Palm oil derivatives can be found<br>in tablet vitamin formulations as<br>binders or for enhancing<br>bioavailability."""
+,,,
+Energy,Energy,,"""Palm oil is a major source for<br>biofuel. It's used in biomass<br>energy production due to its high<br>oil yield per acre compared to<br>other crops."""
+Energy-Biofuel,Biofuel,Energy,"""Palm oil is one of the feedstocks<br>used for the production of<br>biofuels, such as biodiesel."""
+Energy-Biofuel-Biomass Thermal Energy,Biomass Thermal Energy,Energy-Biofuel,"""Biomass thermal energy systems<br>may utilize palm oil biomass as a<br>renewable energy source for<br>heat generation."""
+Energy-Biofuel-Biomass Liquid Fuels,Biomass Liquid Fuels,Energy-Biofuel,"""Palm oil biomass can be<br>converted into liquid fuels, such<br>as bioethanol or biobutanol,<br>through appropriate processing<br>methods."""
+Energy-Biofuel-Biomass Gaseous Fuels,Biomass Gaseous Fuels,Energy-Biofuel,"""Palm oil biomass can be utilized<br>for the production of gaseous<br>fuels, such as biogas or syngas,<br>through processes like anaerobic<br>digestion or gasification."""
