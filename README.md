@@ -48,6 +48,8 @@ Before you begin, ensure that you have the following installed on your system:
 Live Server: You will need to install a Python HTTP server or a live server to run this project. We recommend using Live Server extension for Visual Studio Code or setting up a Python HTTP server.
 
 To install the Live Server extension for VSCode:
+<img width="874" alt="Screenshot 2025-07-06 at 02 37 07" src="https://github.com/user-attachments/assets/ca8bfc31-1bdb-429f-a63f-a6ca574e5ccf" />
+
 
 Open Visual Studio Code.
 
